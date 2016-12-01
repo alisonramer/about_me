@@ -1,19 +1,29 @@
 * {
-  outline: 1px dotted orange;
-  color: blue;
+  outline: 0px dotted orange;
   font-family: Arial;
+  color: black;
   margin: 1cm 1cm 1cm 1cm;
+  background-color: #blue;
+}
+body{
 
 }
 h1 {
   text-align: center;
-  color: blue;
-  text-shadow: 2px 2px;
+
+}
+h2 {
 }
 li {
-
-
+ }
+i {
 }
-
-
+b {
 }
+p b {
+}
+p#intro {
+  font - size: }
+p {
+
+font-size: ;}
