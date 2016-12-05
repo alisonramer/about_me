@@ -1,11 +1,15 @@
 * {
-  outline: 0px dotted orange;
+  /*outline: 0px dotted orange;
   font-family: Arial;
   color: black;
   margin: 1cm 1cm 1cm 1cm;
-  background-color: #blue;
+  background-color: #blue;*/
+  //
 }
 body{
+color: white;
+background-color: black;
+}
 
 }
 h1 {
