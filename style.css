@@ -6,28 +6,41 @@
   background-color: #blue;*/
   //
 }
-body{
-color: white;
-background-color: black;
+.title {
+  font-style: italic;
 }
 
-}
 h1 {
+  text-transform: uppercase;
+  font-family: fantasy;
+  letter-spacing: 0.3em;
+  line-height: 1.5em;
   text-align: center;
+}
 
+h2{
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
-h2 {
-}
-li {
- }
-i {
-}
-b {
-}
-p b {
-}
-p#intro {
-  font - size: }
-p {
 
-font-size: ;}
+body{
+font-family: Arial;
+color: blue;
+background-color: white;
+padding: 50px;
+letter-spacing: 0.08em;
+word-spacing: 0.08em;
+}
+
+/*p.intro:first-letter{
+  font-size: 200%}
+p.intro:first-line{
+  font-weight:bold;
+}*/
+
+.page {
+  border: 3px dotted orange;
+  background-color: #efefef;
+  padding: 20px;
+
+  }
