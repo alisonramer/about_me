@@ -99,7 +99,7 @@ while (question6 !== 6 && counter < 4) {
     alert ('That\'s not possible! There are not that many days in the week!');
   }
   else if (question6 > 6) {
-    alert ('Alison\'s Jewish. She observes Shabbat. That means one day off of work for her');
+    alert ('Alison\'s Jewish. She observes Shabbat. That means that she takes one day a week off from work.');
     correctAnswers+=1;
   }
   else if (question6 < 6) {
@@ -121,7 +121,7 @@ var guesses = 0;
 
 
 while (guesses < 6) {
-  var answerToQuestion7 = prompt('Can you guess one of the places Alison has lived?').toUpperCase();
+  var answerToQuestion7 = prompt('Can you guess one of the places Alison has lived? You have six changes!').toUpperCase();
   for (var i = 0; i < placesIlived.length; i++) {
     if (answerToQuestion7 === placesIlived[i]) {
       breakingOutOfWhileLoop = true;
@@ -153,7 +153,7 @@ function awards () {
   }
 
   else {
-    alert ('Thank you for your efforts. The Association for Knowledge About Alison is pleased to reward you with a bronze age metal.');
+    alert ('Thank you for your efforts. The Association for Knowledge About Alison is pleased to reward you with a bronze metal.');
     document.write('The user was awarded a silver medal.')
   }
 }
