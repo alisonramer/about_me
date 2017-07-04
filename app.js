@@ -154,7 +154,7 @@ function awards () {
 
   else {
     alert ('Thank you for your efforts. The Association for Knowledge About Alison is pleased to reward you with a bronze metal.');
-    document.write('The user was awarded a silver medal.')
+    document.write('The user was awarded a bronze medal.')
   }
 }
 awards ();
