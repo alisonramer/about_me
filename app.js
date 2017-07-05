@@ -148,12 +148,12 @@ function awards () {
   }
 
   else if (correctAnswers >= 3 && correctAnswers <= 5) {
-    alert ('You\'re getting to know Alison. Good work! The Association for Knowledge About Alison is pleased to awarded you a silver-ish medal.');
+    alert ('You\'re getting to know Alison. Good work! The Association for Knowledge about Alison is pleased to awarded you a silver-ish medal.');
     document.write('The user was awarded a silver medal.')
   }
 
   else {
-    alert ('Thank you for your efforts. The Association for Knowledge About Alison is pleased to reward you with a bronze medal.');
+    alert ('Thank you for your efforts. The Association for Knowledge about Alison is pleased to reward you with a bronze medal.');
     document.write('The user was awarded a bronze medal.')
   }
 }
