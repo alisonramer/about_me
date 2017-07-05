@@ -121,7 +121,7 @@ var guesses = 0;
 
 
 while (guesses < 6) {
-  var answerToQuestion7 = prompt('Can you guess one of the places Alison has lived? You have six changes!').toUpperCase();
+  var answerToQuestion7 = prompt('Can you guess one of the places Alison has lived? You have six chances!').toUpperCase();
   for (var i = 0; i < placesIlived.length; i++) {
     if (answerToQuestion7 === placesIlived[i]) {
       breakingOutOfWhileLoop = true;
@@ -153,7 +153,7 @@ function awards () {
   }
 
   else {
-    alert ('Thank you for your efforts. The Association for Knowledge About Alison is pleased to reward you with a bronze metal.');
+    alert ('Thank you for your efforts. The Association for Knowledge About Alison is pleased to reward you with a bronze medal.');
     document.write('The user was awarded a bronze medal.')
   }
 }
